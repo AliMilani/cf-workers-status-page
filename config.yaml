@@ -43,3 +43,4 @@ monitors:
     url: 'https://google.com/'
     method: GET
     expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
