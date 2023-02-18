@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+    
+  - id: google
+    name: Google home page
+    url: 'https://google.com/'
+    method: GET
+    expectStatus: 200
